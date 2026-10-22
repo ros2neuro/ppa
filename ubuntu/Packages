@@ -1,0 +1,679 @@
+Package: liblsl
+Version: 1.16.2-noble
+Architecture: amd64
+Maintainer: Tristan Stenner <ttstenner@gmail.com>
+Installed-Size: 2810
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libpugixml1v5 (>= 1.6), libstdc++6 (>= 13.1)
+Filename: ./liblsl-1.16.2-noble_amd64.deb
+Size: 411890
+MD5sum: a86b9d9080393e77099f759d3f544fd6
+SHA1: 39e031a38517c9d7185fbd7d192f2ba9f662bba2
+SHA256: 693cd5e0c57b7eb76f965286f183accf315be438399c13532d7681dca3bcda57
+Section: devel
+Priority: optional
+Homepage: https://github.com/sccn/liblsl
+Description: Labstreaminglayer C/C++ library
+ Labstreaminglayer C/C++ library
+
+Package: libneurodraw-dev
+Source: neurodraw
+Version: 2.0.0
+Architecture: amd64
+Maintainer: ros2neuro PPA <forin.paolo98@gmail.com>
+Installed-Size: 73
+Depends: libneurodraw2 (= 2.0.0), libsdl2-dev, libsdl2-image-dev, libsdl2-ttf-dev, libgl-dev
+Filename: ./libneurodraw-dev_2.0.0_amd64.deb
+Size: 11678
+MD5sum: e3716abeee45b6374aad5bff5b11360e
+SHA1: d488e6a0d680edcbef0e09b543fef849d92ff78e
+SHA256: 13f03176d010d1efd8752ee098adb870ea69abd6ebc7a6e1f732eb92af62ed1e
+Section: libdevel
+Priority: optional
+Description: 2D graphics library for BCI feedback (development files)
+ Headers and CMake package files (find_package(neurodraw CONFIG)) for neurodraw
+ and neurochrono.
+
+Package: libneurodraw2
+Source: neurodraw
+Version: 2.0.0
+Architecture: amd64
+Maintainer: ros2neuro PPA <forin.paolo98@gmail.com>
+Installed-Size: 171
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libopengl0, libsdl2-2.0-0 (>= 2.0.12), libsdl2-image-2.0-0 (>= 2.0.5), libsdl2-ttf-2.0-0 (>= 2.20.0), libstdc++6 (>= 11)
+Filename: ./libneurodraw2_2.0.0_amd64.deb
+Size: 49806
+MD5sum: c80408c24bbd91ee9c104a679ed5284d
+SHA1: 20f0722ce55c2d295d52c13e66a791042b882c07
+SHA256: 7361f1930c929a42af87e2413a8ad4d6edacc0b67b6466d8095a7121f0f4cd6e
+Section: libs
+Priority: optional
+Description: 2D graphics library for BCI feedback (runtime)
+ neurodraw is a compact C++ graphics library for 2D neurofeedback and BCI
+ interfaces built on SDL2 and OpenGL. This package contains the shared
+ libraries neurodraw and neurochrono.
+
+Package: ros-jazzy-ros2neuro-acquisition
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "ltonin" <luca.tonin@unipd.it>
+Installed-Size: 559
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-data, ros-jazzy-ros2neuro-msgs, ros-jazzy-ros2neuro-visualizer, ros-jazzy-std-srvs
+Filename: ./ros-jazzy-ros2neuro-acquisition_0.1.0-0noble_amd64.deb
+Size: 157978
+MD5sum: a75c6dce84e0ed16b1c0f7b741527b50
+SHA1: bf30ed2cf55e9718b2d34c57bb97f419c6576e33
+SHA256: 423db6f207bd1f8ceeaf647887f2bbb25ace907fad8bf09dd17162980fa9a823
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_acquisition/#jazzy
+Description: Core acquisition node and device plugin interface for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-acquisition-dummy
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "ltonin" <luca.tonin@unipd.it>
+Installed-Size: 144
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-acquisition, ros-jazzy-ros2neuro-data, ros-jazzy-ros2neuro-msgs
+Filename: ./ros-jazzy-ros2neuro-acquisition-dummy_0.1.0-0noble_amd64.deb
+Size: 30950
+MD5sum: 255a650e17a79b0ec155ff395ddb327a
+SHA1: db0c0691a430fd6f180da0a2e1c2d1b3fdbcd891
+SHA256: 490eb188e75c049a3ce7963b63ef583956f1751e3efdbf9110a2681d82989b61
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_acquisition_dummy/#jazzy
+Description: Dummy acquisition plugin for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-acquisition-eegdev
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "ltonin" <luca.tonin@unipd.it>
+Installed-Size: 250
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libeegdev0t64, libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-acquisition, ros-jazzy-ros2neuro-data, ros-jazzy-ros2neuro-msgs
+Filename: ./ros-jazzy-ros2neuro-acquisition-eegdev_0.1.0-0noble_amd64.deb
+Size: 66314
+MD5sum: e55746e7f56aedd8a113b83d0ddd7564
+SHA1: 01e143e4199a0d3427b52808ea91218c7fafdf33
+SHA256: 67730e2cdea5ecff9ebf7f40ae925752ffc1dda00edeff558871997d18814bf6
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_acquisition_eegdev/#jazzy
+Description: libeegdev-based plugin for ros2neuro_acquisition.
+
+Package: ros-jazzy-ros2neuro-acquisition-lsl
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "paolo" <paolo@todo.todo>
+Installed-Size: 221
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), liblsl (= 1.16.2-noble), libstdc++6 (>= 13.1), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-acquisition, ros-jazzy-ros2neuro-data, ros-jazzy-ros2neuro-msgs
+Filename: ./ros-jazzy-ros2neuro-acquisition-lsl_0.1.0-0noble_amd64.deb
+Size: 58946
+MD5sum: c04aee217b74e00191fa2e8d1622e8e6
+SHA1: 68c330ad8f444941e67902e067edf956169fb8d4
+SHA256: dd88306993d12376a3db9dcb4d3a2a0a19a99be61c5b560e157b17309a278260
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_acquisition_lsl/#jazzy
+Description: ROS2Neuro acquisition plugin for Lab Streaming Layer (LSL)
+
+Package: ros-jazzy-ros2neuro-acquisition-xdf
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "ltonin" <luca.tonin@dei.unipd.it>
+Installed-Size: 238
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libxdffileio0t64 (>= 0.0), ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-acquisition, ros-jazzy-ros2neuro-data, ros-jazzy-ros2neuro-msgs
+Filename: ./ros-jazzy-ros2neuro-acquisition-xdf_0.1.0-0noble_amd64.deb
+Size: 65882
+MD5sum: 575513b0176f8bfc3e4cdcb5384980c1
+SHA1: d876c5089fc0322370322ce29b152931555d8f8e
+SHA256: a683f78eab885ec296f8ab031a596bd840fc6e4626adb454c6294dc318fb764a
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_acquisition_xdf/#jazzy
+Description: File acquisition backend for ros2neuro using xdffileio.
+
+Package: ros-jazzy-ros2neuro-data
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Luca Tonin" <luca.tonin@unipd.it>
+Installed-Size: 182
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-jazzy-ros2neuro-msgs, ros-jazzy-std-msgs
+Filename: ./ros-jazzy-ros2neuro-data_0.1.0-0noble_amd64.deb
+Size: 44384
+MD5sum: 4a19d80c37c9895236d0500dc59cb703
+SHA1: d6d509f1ec6de527fccb1f0dd7b0558e845ab872
+SHA256: 7080c45ad519771f56f86fb376649e5ab8a6ddcc5d8773d2dd29ceb5face64e6
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_data/#jazzy
+Description: Runtime data structures and conversion utilities for building NeuroFrame messages in memory before publishing them as ros2neuro_msgs interfaces.
+
+Package: ros-jazzy-ros2neuro-decoder
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Luca Tonin" <luca.tonin@unipd.it>
+Installed-Size: 843
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), libyaml-cpp0.8 (>= 0.7.0), libyaml-cpp-dev, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-msgs
+Filename: ./ros-jazzy-ros2neuro-decoder_0.1.0-0noble_amd64.deb
+Size: 214390
+MD5sum: 8cfaf58ba31bc51b83aa0f918189d683
+SHA1: c5935bce5085ddd4bb6111ca2e1bb13e56ba8aab
+SHA256: 014d783171fd653f6eb3099715814ff6a723004d58ff615dd6cbe07f401d3f58
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_decoder/#jazzy
+Description: Plugin-based decoding interfaces and runtime node for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-decoder-converters
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Luca Tonin" <luca.tonin@unipd.it>
+Installed-Size: 95
+Depends: pyqt5-dev, python3-numpy, python3-pyqt5, python3-pyqt5.qtsvg, python3-scipy, python3-sip-dev
+Filename: ./ros-jazzy-ros2neuro-decoder-converters_0.1.0-0noble_amd64.deb
+Size: 15050
+MD5sum: 2558017893eeaa8aadec1ce889ed6bf9
+SHA1: cb5eccb8dd8d5bb6b3e29f150a1683c640e10d20
+SHA256: 8f294b17aeca267e5fffb1f6d942faba9f6848b0e5db654af288984b188e4afc
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_decoder_converters/#jazzy
+Description: Offline converters for ros2neuro decoder models.
+
+Package: ros-jazzy-ros2neuro-decoder-gaussian
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Luca Tonin" <luca.tonin@unipd.it>
+Installed-Size: 194
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-decoder, ros-jazzy-ros2neuro-msgs
+Filename: ./ros-jazzy-ros2neuro-decoder-gaussian_0.1.0-0noble_amd64.deb
+Size: 45178
+MD5sum: 308c15115464b87269e4cfc071f8cf80
+SHA1: 3c520d99a3860a57a084e3bf845a4bf5c3e10c9a
+SHA256: 6a7cb807f86d357b2e835a961b655ca997322ac3c7698a7e0c41bd8eefd30196
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_decoder_gaussian/#jazzy
+Description: Gaussian decoder plugin for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-decoder-lda
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Luca Tonin" <luca.tonin@unipd.it>
+Installed-Size: 184
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-decoder, ros-jazzy-ros2neuro-msgs
+Filename: ./ros-jazzy-ros2neuro-decoder-lda_0.1.0-0noble_amd64.deb
+Size: 43948
+MD5sum: 0ee017ee3e32ef93ee025f318c0a4553
+SHA1: 7743a277140462e7bf09db2930e621fe81c7837b
+SHA256: a6c597c0d96f57418f1973407483620ef12170c50831df82ffe7d828f1cce7e2
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_decoder_lda/#jazzy
+Description: LDA decoder plugin for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-decoder-py
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "curtaz" <tommasocortecchia@gmail.com>
+Installed-Size: 7810
+Depends: ros-jazzy-rclpy, ros-jazzy-ros2neuro-msgs
+Filename: ./ros-jazzy-ros2neuro-decoder-py_0.1.0-0noble_amd64.deb
+Size: 6766808
+MD5sum: 168df7751be9fce5bd29fc3c61030f2d
+SHA1: f4a0c60b2f9efe08cd6219b3b43e6225446da14c
+SHA256: 3b876f8daa568471f4e26b5fed78a02905f6e4920db84eec9fd9e9a8378665b8
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_decoder_py/#jazzy
+Description: Python implementation EEG decoder for ROS2Neuro.
+
+Package: ros-jazzy-ros2neuro-decoder-qda
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Luca Tonin" <luca.tonin@unipd.it>
+Installed-Size: 184
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-decoder, ros-jazzy-ros2neuro-msgs
+Filename: ./ros-jazzy-ros2neuro-decoder-qda_0.1.0-0noble_amd64.deb
+Size: 44292
+MD5sum: 678a819748a1b33c92085fffe220864d
+SHA1: 7070fddfb0b9ea7a1a7d17c5e04e91ba5a9c5a23
+SHA256: 1805e37b08aeb6686091530c1ecce414b6a7d9d0fa91fd63651245713d8fe53b
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_decoder_qda/#jazzy
+Description: QDA decoder plugin for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-decoder-svm
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Luca Tonin" <luca.tonin@unipd.it>
+Installed-Size: 183
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-decoder, ros-jazzy-ros2neuro-msgs
+Filename: ./ros-jazzy-ros2neuro-decoder-svm_0.1.0-0noble_amd64.deb
+Size: 43918
+MD5sum: a568df776bae38e036390a737aa5c608
+SHA1: df9385824ff368bd084dcab1011572c907e715f1
+SHA256: efa7486a409c79be9b4fa0a8377e3e10cf70409a37d0b7b981da0dbab0b43fd4
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_decoder_svm/#jazzy
+Description: SVM decoder plugin for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-devel-test
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Luca Tonin" <luca.tonin@unipd.it>
+Installed-Size: 8758
+Depends: ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-launch-xml, ros-jazzy-ros2launch, ros-jazzy-ros2neuro-acquisition, ros-jazzy-ros2neuro-acquisition-xdf, ros-jazzy-ros2neuro-decoder, ros-jazzy-ros2neuro-decoder-gaussian, ros-jazzy-ros2neuro-decoder-py, ros-jazzy-ros2neuro-decoder-qda, ros-jazzy-ros2neuro-feedback, ros-jazzy-ros2neuro-feedback-bar, ros-jazzy-ros2neuro-feedback-wheel, ros-jazzy-ros2neuro-filters, ros-jazzy-ros2neuro-filters-butterworth, ros-jazzy-ros2neuro-filters-laplacian, ros-jazzy-ros2neuro-integrator, ros-jazzy-ros2neuro-integrator-buffer, ros-jazzy-ros2neuro-integrator-exponential, ros-jazzy-ros2neuro-manager, ros-jazzy-ros2neuro-manager-asynchronous, ros-jazzy-ros2neuro-manager-synchronous, ros-jazzy-ros2neuro-processing-buffer, ros-jazzy-ros2neuro-processing-spectral, ros-jazzy-ros2neuro-recorder, ros-jazzy-ros2neuro-recorder-xdf, ros-jazzy-ros2neuro-visualizer
+Filename: ./ros-jazzy-ros2neuro-devel-test_0.1.0-0noble_amd64.deb
+Size: 7566878
+MD5sum: 0545b740718e1d58678ce0f7f6b3065a
+SHA1: 75d10b9d1e13ec3bdbf8b6af4b4e6905ad96aa69
+SHA256: c3b627e44900f936817929d00e21b357bf21723b2c12e581a5021cf89deabde4
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_devel_test/#jazzy
+Description: Development launch files and example assets for ros2neuro motor imagery loops, plus hardware-free launchers (GDF replay) to test the whole manager/feedback chain.
+
+Package: ros-jazzy-ros2neuro-feedback
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Luca Tonin" <luca.tonin@unipd.it>
+Installed-Size: 794
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-manager, ros-jazzy-ros2neuro-msgs
+Filename: ./ros-jazzy-ros2neuro-feedback_0.1.0-0noble_amd64.deb
+Size: 199792
+MD5sum: 93f7e117baccfaf49ad4031201115f1b
+SHA1: 224714820e2dd827a9089d519a4fb8e2de8b0e3a
+SHA256: e0aaa91fd312f0c85969a773a37869521836283ae2f0fbc6aa01c624e7133032
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_feedback/#jazzy
+Description: Passive feedback core for ros2neuro: reads only the manager flow and drives a drawing plugin.
+
+Package: ros-jazzy-ros2neuro-feedback-bar
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Luca Tonin" <luca.tonin@unipd.it>
+Installed-Size: 127
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libneurodraw2 (>= 2.0.0), libstdc++6 (>= 13.1), libneurodraw-dev, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-feedback, ros-jazzy-ros2neuro-manager
+Filename: ./ros-jazzy-ros2neuro-feedback-bar_0.1.0-0noble_amd64.deb
+Size: 28216
+MD5sum: 5b2125139aace7104c9b491d5dfa7126
+SHA1: d2af7fbb95914d65f8918ea38b5d7595e0033cb1
+SHA256: b7120edddb30e7eaae4b68f589ec6b23afd2bdd644e5030dc9af0fdb5c4ecfe7
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_feedback_bar/#jazzy
+Description: Bar drawing plugin (neurodraw only) for ros2neuro_feedback: one bar per classifier output.
+
+Package: ros-jazzy-ros2neuro-feedback-wheel
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Luca Tonin" <luca.tonin@unipd.it>
+Installed-Size: 132
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libneurodraw2 (>= 2.0.0), libstdc++6 (>= 13.1), libneurodraw-dev, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-feedback, ros-jazzy-ros2neuro-manager
+Filename: ./ros-jazzy-ros2neuro-feedback-wheel_0.1.0-0noble_amd64.deb
+Size: 28978
+MD5sum: 2745408d93cdf8e01c5daddae78ad84a
+SHA1: eb9d20fbaebae4a5154b5aca52c64842c94b0ec3
+SHA256: 5e7027ae8de7391eed048737bd3ed917e6c70c587c7be82ffe1f94e8a4e83a02
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_feedback_wheel/#jazzy
+Description: Wheel drawing plugin (neurodraw) for ros2neuro_feedback.
+
+Package: ros-jazzy-ros2neuro-filters
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "ltonin" <luca.tonin@unipd.it>
+Installed-Size: 773
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), ros-jazzy-ament-index-python, ros-jazzy-launch-ros, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-data, ros-jazzy-ros2neuro-msgs
+Filename: ./ros-jazzy-ros2neuro-filters_0.1.0-0noble_amd64.deb
+Size: 193468
+MD5sum: 40ff0c76377fb272868f6cd3de31e9b9
+SHA1: 43ff397531563a6caa4d0946487dba7613d4b8bf
+SHA256: a324ccf02ec441191913a70be1e8e969fa5c3872935be882b7b9f91ab8175e98
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_filters/#jazzy
+Description: Core filter interface, filter chain, and ROS2 node for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-filters-blackman
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "ltonin" <luca.tonin@unipd.it>
+Installed-Size: 109
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-filters
+Filename: ./ros-jazzy-ros2neuro-filters-blackman_0.1.0-0noble_amd64.deb
+Size: 20090
+MD5sum: 007ccc852e457c8074abb30fdc6e7bc9
+SHA1: 99b92bb09b21f6c7140527ccdfa0955e47a8620a
+SHA256: 28214e801fe43f66855935a513ec60da728274ba422021915a87bce07c0b4818
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_filters_blackman/#jazzy
+Description: Blackman window filter plugin for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-filters-butterworth
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "ltonin" <luca.tonin@unipd.it>
+Installed-Size: 17477
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), librtfilter1 (>= 1.0), libstdc++6 (>= 13.1), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-filters
+Filename: ./ros-jazzy-ros2neuro-filters-butterworth_0.1.0-0noble_amd64.deb
+Size: 4567472
+MD5sum: 2759a3e7ce9866576e82aa63680671c0
+SHA1: 05b65b638f727e172a1f7d8ad9caa82415a49a27
+SHA256: 098d4358074e2a15d74fb998033c7bfef2ea7090bdca9cae8273432248f363e8
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_filters_butterworth/#jazzy
+Description: Butterworth frequency filter plugin for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-filters-car
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "ltonin" <luca.tonin@unipd.it>
+Installed-Size: 105
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-filters
+Filename: ./ros-jazzy-ros2neuro-filters-car_0.1.0-0noble_amd64.deb
+Size: 19450
+MD5sum: 2bf39b8891047614a8d0b22d8390bb1f
+SHA1: f93a7d040eac0553b26105cc67403731871c3612
+SHA256: 96e0a642ab1bd28f8a778d120ae352703f47a65e9e3fa63f8bf5a81ad00b59e8
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_filters_car/#jazzy
+Description: CAR spatial filter plugin for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-filters-dc
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "ltonin" <luca.tonin@unipd.it>
+Installed-Size: 105
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-filters
+Filename: ./ros-jazzy-ros2neuro-filters-dc_0.1.0-0noble_amd64.deb
+Size: 19472
+MD5sum: 2d37fa42d12ded11012ed4b76a7792dd
+SHA1: e82eb8903c898d503cb2674599de8cd54ea2275f
+SHA256: e70fa6313281f4fba153f4302dcfd3336e518c2f8362c9c39411aaaf4d11108f
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_filters_dc/#jazzy
+Description: DC (mean removal) temporal filter plugin for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-filters-flattop
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "ltonin" <luca.tonin@unipd.it>
+Installed-Size: 109
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-filters
+Filename: ./ros-jazzy-ros2neuro-filters-flattop_0.1.0-0noble_amd64.deb
+Size: 20296
+MD5sum: ee7e591f2491503951e95c758946db59
+SHA1: 4f7bf9948e372eccc5c4a4a2b1a401ba368b29fd
+SHA256: dff80b1cfb9318cafe11972a93a815b4a7e60ebe41aea5a93e32a967d780216c
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_filters_flattop/#jazzy
+Description: Flattop window filter plugin for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-filters-hamming
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "ltonin" <luca.tonin@unipd.it>
+Installed-Size: 109
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-filters
+Filename: ./ros-jazzy-ros2neuro-filters-hamming_0.1.0-0noble_amd64.deb
+Size: 19974
+MD5sum: ff7da6a7e0f41dad367cc7d99fb3775a
+SHA1: 826115a69cdfa2c74f9135dba59a53c3906583b9
+SHA256: 2f2f76f6bfc907d54dd42ea79c7298c8d834e326d60d72e851b4f57b4c6200aa
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_filters_hamming/#jazzy
+Description: Hamming window filter plugin for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-filters-hann
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "ltonin" <luca.tonin@unipd.it>
+Installed-Size: 109
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-filters
+Filename: ./ros-jazzy-ros2neuro-filters-hann_0.1.0-0noble_amd64.deb
+Size: 19932
+MD5sum: 070b419087a2fdbf54a5c241e527171e
+SHA1: b9152221dde08f8e4b44a8534472c0ea88d4301b
+SHA256: cc8c9e8958b778bfed47e3ef4e34ae6d71cb848195a42b263f4996ce0b7335d1
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_filters_hann/#jazzy
+Description: Hann window filter plugin for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-filters-laplacian
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "ltonin" <luca.tonin@unipd.it>
+Installed-Size: 146
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-filters
+Filename: ./ros-jazzy-ros2neuro-filters-laplacian_0.1.0-0noble_amd64.deb
+Size: 38084
+MD5sum: c625e2a8f60fac87622d2a944f214924
+SHA1: 11172bf509e30e7bbae046cebaf8b7111e4eecf6
+SHA256: be4c6ae2961722c49a74f35f3d54866c855503c2a67b1c8ce13cf0af6246929f
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_filters_laplacian/#jazzy
+Description: Laplacian spatial filter plugin for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-full
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Paolo Forin" <forin.paolo98@gmail.com>
+Installed-Size: 43
+Depends: ros-jazzy-ros2neuro-acquisition, ros-jazzy-ros2neuro-acquisition-dummy, ros-jazzy-ros2neuro-acquisition-eegdev, ros-jazzy-ros2neuro-acquisition-lsl, ros-jazzy-ros2neuro-acquisition-xdf, ros-jazzy-ros2neuro-data, ros-jazzy-ros2neuro-decoder, ros-jazzy-ros2neuro-decoder-converters, ros-jazzy-ros2neuro-decoder-gaussian, ros-jazzy-ros2neuro-decoder-lda, ros-jazzy-ros2neuro-decoder-py, ros-jazzy-ros2neuro-decoder-qda, ros-jazzy-ros2neuro-decoder-svm, ros-jazzy-ros2neuro-devel-test, ros-jazzy-ros2neuro-feedback, ros-jazzy-ros2neuro-feedback-bar, ros-jazzy-ros2neuro-feedback-wheel, ros-jazzy-ros2neuro-filters, ros-jazzy-ros2neuro-filters-blackman, ros-jazzy-ros2neuro-filters-butterworth, ros-jazzy-ros2neuro-filters-car, ros-jazzy-ros2neuro-filters-dc, ros-jazzy-ros2neuro-filters-flattop, ros-jazzy-ros2neuro-filters-hamming, ros-jazzy-ros2neuro-filters-hann, ros-jazzy-ros2neuro-filters-laplacian, ros-jazzy-ros2neuro-integrator, ros-jazzy-ros2neuro-integrator-buffer, ros-jazzy-ros2neuro-integrator-exponential, ros-jazzy-ros2neuro-manager, ros-jazzy-ros2neuro-manager-asynchronous, ros-jazzy-ros2neuro-manager-synchronous, ros-jazzy-ros2neuro-msgs, ros-jazzy-ros2neuro-processing-buffer, ros-jazzy-ros2neuro-processing-spectral, ros-jazzy-ros2neuro-recorder, ros-jazzy-ros2neuro-recorder-xdf, ros-jazzy-ros2neuro-visualizer
+Filename: ./ros-jazzy-ros2neuro-full_0.1.0-0noble_amd64.deb
+Size: 5684
+MD5sum: 7863f3875423c001752e6ed2c24d8726
+SHA1: d480276f517045857acca73d20bca815c0c33b61
+SHA256: db0f3aa9d113bd924939a4119cd9936d8a036642791561438cbc99f6d208a726
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_full/#jazzy
+Description: Metapackage that installs the whole ros2neuro stack, except the plugins that need proprietary SDKs (ANT Neuro, g.tec).
+
+Package: ros-jazzy-ros2neuro-integrator
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Luca Tonin" <luca.tonin@unipd.it>
+Installed-Size: 1070
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-msgs, ros-jazzy-std-srvs
+Filename: ./ros-jazzy-ros2neuro-integrator_0.1.0-0noble_amd64.deb
+Size: 230340
+MD5sum: c051e2fc355324b49871a5ea6f0bda55
+SHA1: 1b22d4eda6a57312fb66612ab504cebbffdd0b85
+SHA256: 63693a2aa22f31458aa766cea08ebc368a7be321adc9616b158155697770033d
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_integrator/#jazzy
+Description: Plugin-based control integration interfaces and runtime node for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-integrator-buffer
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Paolo" <forin.paolo98@gmail.com>
+Installed-Size: 116
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-integrator, ros-jazzy-ros2neuro-msgs
+Filename: ./ros-jazzy-ros2neuro-integrator-buffer_0.1.0-0noble_amd64.deb
+Size: 24820
+MD5sum: b99f4057f2d7a3f21d9a8a77cd74ea36
+SHA1: 0bf9d30e45a576c09924443a3e42ce9988b1e1b1
+SHA256: c87a33f1b3663c1c968327a811c33ae0fb1e55bcf8b4791ec239a7cc031f8eff
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_integrator_buffer/#jazzy
+Description: Per-class accumulator buffer integrator plugin for ros2neuro_integrator (ROS2 port of rosneuro_integrator_buffer).
+
+Package: ros-jazzy-ros2neuro-integrator-exponential
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Luca Tonin" <luca.tonin@unipd.it>
+Installed-Size: 118
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-integrator, ros-jazzy-ros2neuro-msgs
+Filename: ./ros-jazzy-ros2neuro-integrator-exponential_0.1.0-0noble_amd64.deb
+Size: 23966
+MD5sum: 175de002d511f20dac8385661f568c74
+SHA1: 9edbf3d93aaf195d805042798070a8a7887ad5ed
+SHA256: ee86f9557711695d656f92375b93d257f93d4606f64614c782d1fa8dbc92eeb5
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_integrator_exponential/#jazzy
+Description: Exponential integrator plugin for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-manager
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Luca Tonin" <luca.tonin@unipd.it>
+Installed-Size: 1115
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), ros-jazzy-builtin-interfaces, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-msgs, ros-jazzy-std-srvs
+Filename: ./ros-jazzy-ros2neuro-manager_0.1.0-0noble_amd64.deb
+Size: 254696
+MD5sum: b42ac1e4ddde56bc6ebe0c49f4e3376c
+SHA1: 9fb9f287710925caca77752eb19b49c8a6d2f28d
+SHA256: 7c1235d36e4b09e2734ecffdf10da0c3a346047b3e46caef61ce185488c02e1d
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_manager/#jazzy
+Description: Core of the protocol manager for ros2neuro: code catalog, fields mapping, normalization, flow towards the feedback, integrator reset handling and the plugin interface.
+
+Package: ros-jazzy-ros2neuro-manager-asynchronous
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Luca Tonin" <luca.tonin@unipd.it>
+Installed-Size: 112
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-feedback, ros-jazzy-ros2neuro-feedback-bar, ros-jazzy-ros2neuro-feedback-wheel, ros-jazzy-ros2neuro-manager
+Filename: ./ros-jazzy-ros2neuro-manager-asynchronous_0.1.0-0noble_amd64.deb
+Size: 21072
+MD5sum: 7dc75e618048a5fc611e1dc70ce3e7a1
+SHA1: 39a29352b050df6eb77b8b37602819850d0939aa
+SHA256: b85b3482f1b1274bb3c8008119596e9bf5e7884327ca26ffef0b19fb5ee14443
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_manager_asynchronous/#jazzy
+Description: Continuous-control plugin for ros2neuro_manager: resets the integrator when a class reaches its threshold.
+
+Package: ros-jazzy-ros2neuro-manager-synchronous
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Luca Tonin" <luca.tonin@unipd.it>
+Installed-Size: 302
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-feedback, ros-jazzy-ros2neuro-feedback-bar, ros-jazzy-ros2neuro-feedback-wheel, ros-jazzy-ros2neuro-manager, ros-jazzy-std-msgs
+Filename: ./ros-jazzy-ros2neuro-manager-synchronous_0.1.0-0noble_amd64.deb
+Size: 81676
+MD5sum: 2bad61da1f29f02a1816a60fdc71ab85
+SHA1: 536a233ab55470675de6abebb9a55321f78a1999
+SHA256: a591e26df6fd81d70c616dabe912c20a132645bc04295238b6bc70ff0a79710d
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_manager_synchronous/#jazzy
+Description: Calibration / evaluation protocol plugin for ros2neuro_manager.
+
+Package: ros-jazzy-ros2neuro-msgs
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "Luca Tonin" <luca.tonin@unipd.it>
+Installed-Size: 2323
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Filename: ./ros-jazzy-ros2neuro-msgs_0.1.0-0noble_amd64.deb
+Size: 190696
+MD5sum: 9bb0aa91dbe766b244ea23a54d53d521
+SHA1: ee4c3d17a68361bbbc695c424d5a6b9467a607ea
+SHA256: b392e5d4ce02273be397f061ccbab7ddc1bfeda6d994553ce08899a098bbd361
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_msgs/#jazzy
+Description: ROS 2 interface package for ROS-Neuro.
+ It defines the message API for multimodal neurophysiological acquisition streams, synchronized chunked runtime frames, static stream metadata, and neuro events.
+
+Package: ros-jazzy-ros2neuro-processing-buffer
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "curtaz" <tommasocortecchia@gmail.com>
+Installed-Size: 514
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-rclcpp, ros-jazzy-ros2neuro-msgs
+Filename: ./ros-jazzy-ros2neuro-processing-buffer_0.1.0-0noble_amd64.deb
+Size: 113692
+MD5sum: bb3675033a606a26766c30992cf6b0db
+SHA1: 5e628a9eb2813c41b2b4e76a00483243036419e3
+SHA256: 60e1d406b7e6459169a0903eb6e1b74cad4c11e2dc2f9f016ea5e13533ad8b1c
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_processing_buffer/#jazzy
+Description: Sliding-window buffer node: publishes the last N filtered samples as a NeuroFeature time series
+
+Package: ros-jazzy-ros2neuro-processing-spectral
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "ltonin" <luca.tonin@unipd.it>
+Installed-Size: 772
+Depends: libc6 (>= 2.34), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-ament-index-python, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-data, ros-jazzy-ros2neuro-filters-blackman, ros-jazzy-ros2neuro-filters-flattop, ros-jazzy-ros2neuro-filters-hamming, ros-jazzy-ros2neuro-filters-hann, ros-jazzy-ros2neuro-msgs
+Filename: ./ros-jazzy-ros2neuro-processing-spectral_0.1.0-0noble_amd64.deb
+Size: 164396
+MD5sum: bfd10398c2f5531d40e4f0f09b660f70
+SHA1: e3afce5718ca1f428a5fae72dee1b2c6a4b7631e
+SHA256: f297e9d4beafd7bffa41bc690f0d3c08d240ea364847aca01109a69ed960bdc0
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_processing_spectral/#jazzy
+Description: Spectral processing utilities and ROS2 nodes for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-recorder
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "ltonin" <luca.tonin@unipd.it>
+Installed-Size: 1210
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-data, ros-jazzy-ros2neuro-msgs
+Filename: ./ros-jazzy-ros2neuro-recorder_0.1.0-0noble_amd64.deb
+Size: 231738
+MD5sum: 78d4bf93b70912a49bf8925a42662d0e
+SHA1: c011ab15de999f5f814cd97be183c0e97b0a5089
+SHA256: 7e69021e23a51e9a15f96079e690a576be5c8c5c1bfcac158e54990c4dd138ab
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_recorder/#jazzy
+Description: Core recorder node and recorder plugin interface for ros2neuro.
+
+Package: ros-jazzy-ros2neuro-recorder-xdf
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "ltonin" <luca.tonin@unipd.it>
+Installed-Size: 189
+Depends: libc6 (>= 2.32), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libxdffileio0t64 (>= 0.0), ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-data, ros-jazzy-ros2neuro-recorder
+Filename: ./ros-jazzy-ros2neuro-recorder-xdf_0.1.0-0noble_amd64.deb
+Size: 45344
+MD5sum: 91372adc7331cae72b80419d8072eaf4
+SHA1: 52351f6ba147d9ffa7336c6ef3a0d1b041540126
+SHA256: 3bb3e7d4d9673988b9140f6cd1207189c2a487c66a3bdc08da0ee0ce8e23aac3
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_recorder_xdf/#jazzy
+Description: XDF/GDF/BDF recorder plugin for ros2neuro based on xdffileio.
+
+Package: ros-jazzy-ros2neuro-visualizer
+Version: 0.1.0-0noble
+Architecture: amd64
+Maintainer: "ltonin" <luca.tonin@unipd.it>
+Installed-Size: 1117
+Depends: libc6 (>= 2.34), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.3.1), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5widgets5t64 (>= 5.14.1), librtfilter1 (>= 1.0), libstdc++6 (>= 13.1), ros-jazzy-launch-ros, ros-jazzy-rclcpp, ros-jazzy-ros2neuro-data, ros-jazzy-ros2neuro-filters, ros-jazzy-ros2neuro-filters-butterworth, ros-jazzy-ros2neuro-filters-car, ros-jazzy-ros2neuro-msgs, ros-jazzy-ros2neuro-processing-spectral
+Filename: ./ros-jazzy-ros2neuro-visualizer_0.1.0-0noble_amd64.deb
+Size: 238860
+MD5sum: 286a30d0d93332b22f9532f45b5ced07
+SHA1: 3ba58d0b6f88f3394003e9eea1c8f322e004996d
+SHA256: 5674276f3fdcdb9f56689d2cd0bcef9f414861af6b67a89637c0574611bca7ff
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/ros2neuro_visualizer/#jazzy
+Description: Qt-based ROS2 visualizer for ros2neuro with extensible visualization tabs.
+

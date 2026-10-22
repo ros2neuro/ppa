@@ -1,0 +1,4 @@
+usr/include
+usr/lib/*/libneurodraw.so
+usr/lib/*/libneurochrono.so
+usr/lib/*/cmake

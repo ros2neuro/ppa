@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ros2neuro_full</name>
+  <version>0.1.0</version>
+  <description>Metapackage that installs the whole ros2neuro stack, except the plugins that need proprietary SDKs (ANT Neuro, g.tec).</description>
+  <maintainer email="forin.paolo98@gmail.com">Paolo Forin</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>ros2neuro_msgs</exec_depend>
+  <exec_depend>ros2neuro_data</exec_depend>
+  <exec_depend>ros2neuro_acquisition</exec_depend>
+  <exec_depend>ros2neuro_acquisition_dummy</exec_depend>
+  <exec_depend>ros2neuro_acquisition_eegdev</exec_depend>
+  <exec_depend>ros2neuro_acquisition_lsl</exec_depend>
+  <exec_depend>ros2neuro_acquisition_xdf</exec_depend>
+  <exec_depend>ros2neuro_filters</exec_depend>
+  <exec_depend>ros2neuro_filters_blackman</exec_depend>
+  <exec_depend>ros2neuro_filters_butterworth</exec_depend>
+  <exec_depend>ros2neuro_filters_car</exec_depend>
+  <exec_depend>ros2neuro_filters_dc</exec_depend>
+  <exec_depend>ros2neuro_filters_flattop</exec_depend>
+  <exec_depend>ros2neuro_filters_hamming</exec_depend>
+  <exec_depend>ros2neuro_filters_hann</exec_depend>
+  <exec_depend>ros2neuro_filters_laplacian</exec_depend>
+  <exec_depend>ros2neuro_processing_buffer</exec_depend>
+  <exec_depend>ros2neuro_processing_spectral</exec_depend>
+  <exec_depend>ros2neuro_decoder</exec_depend>
+  <exec_depend>ros2neuro_decoder_converters</exec_depend>
+  <exec_depend>ros2neuro_decoder_gaussian</exec_depend>
+  <exec_depend>ros2neuro_decoder_lda</exec_depend>
+  <exec_depend>ros2neuro_decoder_qda</exec_depend>
+  <exec_depend>ros2neuro_decoder_svm</exec_depend>
+  <exec_depend>ros2neuro_decoder_py</exec_depend>
+  <exec_depend>ros2neuro_integrator</exec_depend>
+  <exec_depend>ros2neuro_integrator_buffer</exec_depend>
+  <exec_depend>ros2neuro_integrator_exponential</exec_depend>
+  <exec_depend>ros2neuro_recorder</exec_depend>
+  <exec_depend>ros2neuro_recorder_xdf</exec_depend>
+  <exec_depend>ros2neuro_visualizer</exec_depend>
+  <exec_depend>ros2neuro_manager</exec_depend>
+  <exec_depend>ros2neuro_manager_asynchronous</exec_depend>
+  <exec_depend>ros2neuro_manager_synchronous</exec_depend>
+  <exec_depend>ros2neuro_feedback</exec_depend>
+  <exec_depend>ros2neuro_feedback_bar</exec_depend>
+  <exec_depend>ros2neuro_feedback_wheel</exec_depend>
+  <exec_depend>ros2neuro_devel_test</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <metapackage/>
+  </export>
+</package>

@@ -1,0 +1,177 @@
+# rosdep keys of the ros2neuro stack (Ubuntu 24.04 noble + ROS Jazzy)
+# Registered with: echo 'yaml https://ros2neuro.github.io/ppa/ubuntu/rosdep-ros2neuro-packages.yaml' | sudo tee /etc/ros/rosdep/sources.list.d/20-ros2neuro.list
+
+# ros2neuro packages
+ros2neuro_acquisition:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-acquisition]
+
+ros2neuro_acquisition_dummy:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-acquisition-dummy]
+
+ros2neuro_acquisition_eegdev:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-acquisition-eegdev]
+
+ros2neuro_acquisition_lsl:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-acquisition-lsl]
+
+ros2neuro_acquisition_xdf:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-acquisition-xdf]
+
+ros2neuro_data:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-data]
+
+ros2neuro_decoder:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-decoder]
+
+ros2neuro_decoder_converters:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-decoder-converters]
+
+ros2neuro_decoder_gaussian:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-decoder-gaussian]
+
+ros2neuro_decoder_lda:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-decoder-lda]
+
+ros2neuro_decoder_py:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-decoder-py]
+
+ros2neuro_decoder_qda:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-decoder-qda]
+
+ros2neuro_decoder_svm:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-decoder-svm]
+
+ros2neuro_devel_test:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-devel-test]
+
+ros2neuro_feedback:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-feedback]
+
+ros2neuro_feedback_bar:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-feedback-bar]
+
+ros2neuro_feedback_wheel:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-feedback-wheel]
+
+ros2neuro_filters:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-filters]
+
+ros2neuro_filters_blackman:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-filters-blackman]
+
+ros2neuro_filters_butterworth:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-filters-butterworth]
+
+ros2neuro_filters_car:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-filters-car]
+
+ros2neuro_filters_dc:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-filters-dc]
+
+ros2neuro_filters_flattop:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-filters-flattop]
+
+ros2neuro_filters_hamming:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-filters-hamming]
+
+ros2neuro_filters_hann:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-filters-hann]
+
+ros2neuro_filters_laplacian:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-filters-laplacian]
+
+ros2neuro_integrator:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-integrator]
+
+ros2neuro_integrator_buffer:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-integrator-buffer]
+
+ros2neuro_integrator_exponential:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-integrator-exponential]
+
+ros2neuro_manager:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-manager]
+
+ros2neuro_manager_asynchronous:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-manager-asynchronous]
+
+ros2neuro_manager_synchronous:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-manager-synchronous]
+
+ros2neuro_msgs:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-msgs]
+
+ros2neuro_processing_buffer:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-processing-buffer]
+
+ros2neuro_processing_spectral:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-processing-spectral]
+
+ros2neuro_recorder:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-recorder]
+
+ros2neuro_recorder_xdf:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-recorder-xdf]
+
+ros2neuro_visualizer:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-visualizer]
+
+ros2neuro_full:
+  ubuntu:
+    noble: [ros-jazzy-ros2neuro-full]
+
+# External dependencies
+neurodraw:
+  ubuntu:
+    noble: [libneurodraw-dev]
+
+xdffileio:
+  ubuntu:
+    noble: [libxdffileio-dev]
+
+eegdev:
+  ubuntu:
+    noble: [libeegdev-dev]
+
+# Only a test dependency of ros2neuro_acquisition_lsl (pip package, not in apt): nothing to install
+python3-pylsl:
+  ubuntu:
+    noble: []

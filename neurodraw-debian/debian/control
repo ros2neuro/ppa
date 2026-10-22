@@ -1,0 +1,23 @@
+Source: neurodraw
+Section: libs
+Priority: optional
+Maintainer: ros2neuro PPA <forin.paolo98@gmail.com>
+Build-Depends: debhelper-compat (= 13), cmake, pkg-config, libsdl2-dev, libsdl2-image-dev, libsdl2-ttf-dev, libgl-dev
+Standards-Version: 4.6.2
+Rules-Requires-Root: no
+
+Package: libneurodraw2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: 2D graphics library for BCI feedback (runtime)
+ neurodraw is a compact C++ graphics library for 2D neurofeedback and BCI
+ interfaces built on SDL2 and OpenGL. This package contains the shared
+ libraries neurodraw and neurochrono.
+
+Package: libneurodraw-dev
+Section: libdevel
+Architecture: any
+Depends: libneurodraw2 (= ${binary:Version}), libsdl2-dev, libsdl2-image-dev, libsdl2-ttf-dev, libgl-dev, ${misc:Depends}
+Description: 2D graphics library for BCI feedback (development files)
+ Headers and CMake package files (find_package(neurodraw CONFIG)) for neurodraw
+ and neurochrono.

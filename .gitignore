@@ -1,0 +1,6 @@
+# NEVER publish the signing key: whoever has it can sign packages as ros2neuro
+private/
+*private-key*
+*revocation*
+*.sec
+*.secret

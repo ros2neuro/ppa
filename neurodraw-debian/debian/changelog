@@ -1,0 +1,5 @@
+neurodraw (2.0.0) noble; urgency=medium
+
+  * neurodraw 2.0.0 (upstream main, commit c47aa42 = devel 8036352 + merge of main, Luca Tonin) packaged for the ros2neuro PPA.
+
+ -- ros2neuro PPA <forin.paolo98@gmail.com>  Thu, 22 Oct 2026 10:00:00 +0200

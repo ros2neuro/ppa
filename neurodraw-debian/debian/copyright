@@ -1,0 +1,9 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: neurodraw
+Upstream-Contact: Luca Tonin
+
+Files: *
+Copyright: Luca Tonin and neurodraw contributors
+License: BSD-3-Clause
+ The sources of neurodraw state a BSD license. The exact terms are to be
+ confirmed with the upstream author before this package is publicly released.
